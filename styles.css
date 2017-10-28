@@ -39,7 +39,7 @@ td {
   padding: 10px;
   border-bottom: 1px solid #DB3794;
 }
-td hover {
+td:hover {
   text-size: 18px;
   color: #FD120A;
 }
