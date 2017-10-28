@@ -16,7 +16,7 @@ h1 {
 }
 table {
   position: relative;
-  width: 97%;
+  width: 95%;
   height: 400px;
   margin-top: 45px;
   margin-bottom: 20px;
@@ -31,4 +31,10 @@ th {
   font-weight: 900;
   font-family: 'Castellar', sans-serif;
   padding: 5px;
+}
+td {
+  color: #FFFF25;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px;
 }
