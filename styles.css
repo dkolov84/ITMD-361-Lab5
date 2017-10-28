@@ -25,5 +25,10 @@ table {
   border-spacing: 5px;
 }
 th {
+  color: #3CFF3C;
+  font-size: 15px;
   text-align: left;
+  font-weight: 900;
+  font-family: 'Castellar', sans-serif;
+  padding: 5px;
 }
