@@ -40,3 +40,6 @@ td {
   boarder-bottom: 1px solid #DB3794;
   boarder-side: 1px solid #DB3794;
 }
+img {
+  boarder-radius: 10px;
+}
