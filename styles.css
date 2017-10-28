@@ -40,9 +40,7 @@ td {
   border-bottom: 1px solid #DB3794;
 }
 td hover {
-  -moz-transform: scalee(1.5);
-  -webkit-transofrm: scale(1.5);
-  transform: scale(1.5);
+  text-size: 18px;
   color: #FD120A;
 }
 img {
