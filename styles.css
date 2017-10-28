@@ -1,15 +1,14 @@
 /* Style sheet for my lab 5 assignment. */
 
 body {
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 5px;
   background-image: url("/images/milkyway.jpg");
-  background-color: #white;
 }
 h1 {
   location: relative;
   text-align: center;
   padding: 10px;
   text-color: #red;
+}
+th {
+  text-align: left;
 }
