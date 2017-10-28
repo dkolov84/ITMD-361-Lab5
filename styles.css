@@ -44,9 +44,9 @@ img {
   border-radius: 10px;
 }
 .cname:hover img {
-  -moz-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
   
   
