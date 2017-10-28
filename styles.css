@@ -7,3 +7,9 @@ body {
   background-image: url("/images/milkyway.jpg");
   background-color: #red;
 }
+h1 {
+  location: relative;
+  text-align: center;
+  padding: 10px;
+  text-color: #red;
+}
