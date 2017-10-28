@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Lab5 data table</title>
+    <link rel="stylesheet" type="text/css" href="cssreset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 <h1>Planetary Statistics</h1>
   <table style="width:100%">
   <thead>
-    <tr>
-      <th>Data Attributes</th>
-      <th>Venus</th>
-      <th>Jupiter</th>
-      <th>Saturn</th>
-      <th>Neptune</th>
+    <tr id="thead">
+      <th class="cname">Data Attributes</th>
+      <th class="cname">Venus</th>
+      <th class="cname">Jupiter</th>
+      <th class="cname">Saturn</th>
+      <th class="cname">Neptune</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th>Mass (kg)</th>
+    <tr id="mass">
+      <th class="tdata">Mass (kg)</th>
       <td>
         4.87 x 10
         <sup>20</sup>
@@ -36,8 +38,8 @@
         <sup>26</sup>
       </td>
     </tr>
-    <tr>
-      <th>Diameter (km)</th>
+    <tr id="diameter">
+      <th class="tdata">Diameter (km)</th>
       <td>
         12104
       </td>
@@ -51,8 +53,8 @@
         49528
       </td>
     </tr>
-    <tr>
-        <th>Mean Density (kg/m <sup>3</sup>)</th>
+    <tr id="mean">
+        <th class="tdata">Mean Density (kg/m <sup>3</sup>)</th>
       <td>
         5250
       </td>
@@ -66,8 +68,8 @@
         1640
       </td>
     </tr>
-     <tr>
-        <th>Escape Velocity (m/s)</th>
+     <tr id="velocity">
+        <th class="tdata">Escape Velocity (m/s)</th>
       <td>
         10400
       </td>
@@ -81,8 +83,8 @@
         23300
       </td>
      </tr>
-     <tr>
-        <th>Average Distance from Sun</th>
+     <tr id="distance">
+        <th class="tdata">Average Distance from Sun</th>
       <td>
         0.723 AU (108,208,930 km)
       </td>
@@ -95,9 +97,9 @@
       <td>
         30.07 AU (4,498,252,900 km)
       </td>
-    </tr>
-    <tr>
-        <th>Rotation period (Earth days)</th>
+     </tr>
+     <tr id="rotation">
+        <th class="tdata">Rotation period (Earth days)</th>
       <td>
         243.02 (retrograde)
       </td>
@@ -110,9 +112,9 @@
       <td>
         0.67 (19.1 hours)
       </td>
-    </tr>
-     <tr>
-        <th>Revolution Period (lenght of year in Earth days)</th>
+     </tr>
+     <tr id="revolution">
+        <th class="tdata">Revolution Period (lenght of year in Earth days)</th>
       <td>
         224.7 
       </td>
@@ -125,7 +127,7 @@
       <td>
         60,190 (164.8 Earth years) 
       </td>
-    </tr>
+     </tr>
   </tbody>       
  </table>
 </body>
