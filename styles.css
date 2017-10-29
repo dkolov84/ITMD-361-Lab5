@@ -47,6 +47,10 @@ td:hover {
   color: #FD120A;
   background: #FFFF25;
 }
+sup { 
+  vertical-align: 10px;
+  font-size: smaller;
+}
 img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
